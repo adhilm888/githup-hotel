@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Marriott Sydney | Luxury Hotel</title>
+
+  <meta
+    name="description"
+    content="Marriott Sydney - luxury rooms, dining, events and experiences in the heart of Sydney."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <a class="logo" href="#home">
+    MARRIOTT <span>SYDNEY</span>
+  </a>
+
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+
+  <nav class="nav">
+    <a href="#rooms">Rooms</a>
+    <a href="#dining">Dining</a>
+    <a href="#experience">Experience</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-book" href="#booking">Book Now</a>
+  </nav>
+
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <p class="eyebrow">WELCOME TO SYDNEY</p>
+
+    <h1>
+      A stay worth<br>
+      <em>remembering.</em>
+    </h1>
+
+    <p class="hero-text">
+      Discover elevated comfort, harbour views and unforgettable
+      moments at Marriott Sydney.
+    </p>
+
+    <div class="hero-actions">
+
+      <a class="btn btn-light" href="#booking">
+        Reserve Your Stay
+      </a>
+
+      <a class="text-link" href="#rooms">
+        Explore the hotel →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- BOOKING -->
+
+<section id="booking" class="booking-card">
+
+  <div class="booking-item">
+
+    <span>CHECK IN</span>
+
+    <strong id="checkinText">
+      Select date
+    </strong>
+
+    <input
+      id="checkin"
+      type="date"
+      aria-label="Check in date"
+    >
+
+  </div>
+
+
+  <div class="booking-item">
+
+    <span>CHECK OUT</span>
+
+    <strong id="checkoutText">
+      Select date
+    </strong>
+
+    <input
+      id="checkout"
+      type="date"
+      aria-label="Check out date"
+    >
+
+  </div>
+
+
+  <div class="booking-item">
+
+    <span>GUESTS</span>
+
+    <select id="guests" aria-label="Number of guests">
+
+      <option>1 Guest</option>
+      <option selected>2 Guests</option>
+      <option>3 Guests</option>
+      <option>4 Guests</option>
+      <option>5+ Guests</option>
+
+    </select>
+
+  </div>
+
+
+  <button class="btn btn-dark" id="availabilityBtn">
+    Check Availability
+  </button>
+
+</section>
+
+
+<!-- INTRO -->
+
+<section class="intro section">
+
+  <div class="section-label">
+    01 / THE HOTEL
+  </div>
+
+  <div>
+
+    <h2>
+      Modern Sydney.<br>
+      <em>Timeless hospitality.</em>
+    </h2>
+
+    <p>
+      Set in the heart of one of Australia's most vibrant cities,
+      Marriott Sydney blends contemporary design with warm Australian
+      hospitality. From relaxed mornings to late-night city views,
+      every detail is designed around your stay.
+    </p>
+
+    <a class="underline-link" href="#experience">
+      Discover Marriott Sydney
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ROOMS -->
+
+<section id="rooms" class="rooms section">
+
+  <div class="section-heading">
+
+    <div>
+
+      <div class="section-label">
+        02 / STAY
+      </div>
+
+      <h2>
+        Rooms & Suites
+      </h2>
+
+    </div>
+
+    <p>
+      Thoughtfully designed spaces for business trips,
+      weekend escapes and everything in between.
+    </p>
+
+  </div>
+
+
+  <div class="room-grid">
+
+
+    <article class="room-card">
+
+      <div class="room-image room-one"></div>
+
+      <div class="room-info">
+
+        <span>01</span>
+
+        <h3>
+          Deluxe Harbour Room
+        </h3>
+
+        <p>
+          King bed · Harbour outlook · 32 m²
+        </p>
+
+        <a href="#booking">
+          Explore room →
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <article class="room-card">
+
+      <div class="room-image room-two"></div>
+
+      <div class="room-info">
+
+        <span>02</span>
+
+        <h3>
+          Executive City Suite
+        </h3>
+
+        <p>
+          King bed · Lounge · 48 m²
+        </p>
+
+        <a href="#booking">
+          Explore room →
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <article class="room-card">
+
+      <div class="room-image room-three"></div>
+
+      <div class="room-info">
+
+        <span>03</span>
+
+        <h3>
+          Marriott Harbour Suite
+        </h3>
+
+        <p>
+          King bed · Panoramic views · 72 m²
+        </p>
+
+        <a href="#booking">
+          Explore room →
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- DINING -->
+
+<section id="dining" class="split-section section">
+
+  <div class="split-image dining-image"></div>
+
+  <div class="split-content">
+
+    <div class="section-label">
+      03 / DINING
+    </div>
+
+    <h2>
+      Flavours of<br>
+      <em>Sydney</em>
+    </h2>
+
+    <p>
+      From locally inspired breakfasts to elegant evening dining,
+      our culinary spaces bring together fresh Australian ingredients
+      and international influences.
+    </p>
+
+    <a class="underline-link" href="#contact">
+      View dining options
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section id="experience" class="experience">
+
+  <div class="experience-overlay"></div>
+
+  <div class="experience-content">
+
+    <div class="section-label">
+      04 / EXPERIENCE
+    </div>
+
+    <h2>
+      Make Sydney<br>
+      <em>your story.</em>
+    </h2>
+
+    <p>
+      Explore the harbour, discover hidden laneways,
+      enjoy world-class dining and return to a place
+      designed for you.
+    </p>
+
+    <a class="btn btn-light" href="#contact">
+      Explore Sydney
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- EVENTS -->
+
+<section id="events" class="events section">
+
+  <div class="section-label">
+    05 / MEET & CELEBRATE
+  </div>
+
+  <div class="events-layout">
+
+    <div>
+
+      <h2>
+        Events made<br>
+        <em>memorable.</em>
+      </h2>
+
+    </div>
+
+    <div>
+
+      <p>
+        From executive meetings to elegant celebrations,
+        our flexible event spaces and dedicated team help
+        bring your occasion together.
+      </p>
+
+      <a class="underline-link" href="#contact">
+        Plan an event
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- AMENITIES -->
+
+<section class="amenities section">
+
+  <div class="section-heading">
+
+    <div>
+
+      <div class="section-label">
+        06 / AMENITIES
+      </div>
+
+      <h2>
+        Everything you need.
+      </h2>
+
+    </div>
+
+  </div>
+
+
+  <div class="amenity-grid">
+
+    <div>
+
+      <b>01</b>
+
+      <h3>
+        Rooftop Pool
+      </h3>
+
+      <p>
+        Unwind above the city skyline.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <b>02</b>
+
+      <h3>
+        Fitness Studio
+      </h3>
+
+      <p>
+        Stay active during your stay.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <b>03</b>
+
+      <h3>
+        24/7 Service
+      </h3>
+
+      <p>
+        Assistance whenever you need it.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <b>04</b>
+
+      <h3>
+        High-Speed Wi-Fi
+      </h3>
+
+      <p>
+        Connected throughout the hotel.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact section">
+
+  <div class="contact-box">
+
+    <div class="section-label">
+      MARRIOTT SYDNEY
+    </div>
+
+    <h2>
+      Your Sydney<br>
+      <em>starts here.</em>
+    </h2>
+
+    <p>
+      1 Harbour Street, Sydney NSW 2000<br>
+      Australia
+    </p>
+
+    <a
+      href="mailto:hello@marriottsydney.example"
+      class="underline-link"
+    >
+      hello@marriottsydney.example
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="footer-top">
+
+    <a class="logo" href="#home">
+      MARRIOTT <span>SYDNEY</span>
+    </a>
+
+    <div class="footer-links">
+
+      <a href="#rooms">Rooms</a>
+      <a href="#dining">Dining</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <span>
+      © 2026 Marriott Sydney — Student Web Project
+    </span>
+
+    <span>
+      Designed for demonstration purposes
+    </span>
+
+  </div>
+
+</footer>
+
+
+<div class="toast" id="toast"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
